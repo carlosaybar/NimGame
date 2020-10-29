@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity3">
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout"
+        android:layout_width="355dp"
+        android:layout_height="540dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:orientation="horizontal">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#000000"
+            android:src="@drawable/lose"
+            tools:ignore="MissingClass,MissingConstraints"
+            tools:layout_editor_absoluteX="-4dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:orientation = "horizontal"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/RelativeLayout"
+        android:id="@+id/RelativeLayout3"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:id="@+id/playAgainbtn"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:width="20dp"
+            android:height="30dp"
+            android:text="Play Again"
+            android:textSize="40dp" />
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

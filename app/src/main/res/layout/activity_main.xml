@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:orientation = "horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/RelativeLayout"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:height="100dp"
+            android:width="300dp"
+            android:text= "50"
+            android:textSize="70dp"
+            android:id="@+id/startBtn"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:orientation = "horizontal"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/RelativeLayout"
+        android:id="@+id/RelativeLayout2"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text= "1"
+            android:height="70dp"
+            android:width="70dp"
+            android:textSize="40dp"
+            android:id="@+id/Second"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:orientation = "horizontal"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/RelativeLayout2"
+        android:id="@+id/RelativeLayout3"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text= "2"
+            android:height="70dp"
+            android:width="70dp"
+            android:textSize="40dp"
+            android:id="@+id/third"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:orientation = "horizontal"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/RelativeLayout3"
+        android:id="@+id/RelativeLayout4"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text= "3"
+            android:height="70dp"
+            android:width="70dp"
+            android:textSize="40dp"
+            android:id="@+id/fourth"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:orientation = "horizontal"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/RelativeLayout4"
+        android:id="@+id/RelativeLayout5"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text= "4"
+            android:height="70dp"
+            android:width="70dp"
+            android:textSize="40dp"
+            android:id="@+id/five"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:orientation = "horizontal"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/RelativeLayout5"
+        android:id="@+id/RelativeLayout6"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text= "5"
+            android:height="70dp"
+            android:width="70dp"
+            android:textSize="40dp"
+            android:id="@+id/six"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:orientation = "horizontal"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/RelativeLayout6"
+        android:id="@+id/RelativeLayout7"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text= "Next"
+            android:height="100dp"
+            android:width="300dp"
+            android:textSize="50dp"
+            android:id="@+id/Next"/>
+    </RelativeLayout>
+
+</RelativeLayout>
